@@ -1,8 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: var(--primary-bg);
+  padding: 20px 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(90deg, #ffffff, #f8c270);
 }
 
 h1,
@@ -33,4 +34,11 @@ button {
 
 img {
   display: block;
+}
+
+.primary-title {
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: #2c2020bc;
+  text-align: center;
 }
